@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example" verbose="1">
+    <parameter name="browserType" value="chrome"></parameter>
+    <parameter name="webURL" value="https://rise.fairsketch.com/signin"></parameter>
+
+    <test name="RunTest">
+        <classes>
+            <class name="ngantester.testcases.ProjectTest"></class>
+        </classes>
+    </test>
+</suite>
